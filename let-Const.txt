@@ -1,0 +1,15 @@
+- What is the difference between ***var*** and ***let***?
+
+The difference is that var can be redeclared and reassigned, while let can only be reassigned. let is also block scoped while var is function scoped.
+
+- What is the difference between **var** and ***const***?
+
+The difference is that var can be redeclared and reassigned, while const can not be reassigned or redeclared. The same thing as let const is block scoped which is different then var being function scoped.
+
+- What is the difference between **let** and **const**?
+
+The only difference is that let can be reassigned while const can not be.
+
+- What is hoisting?
+
+Hoisting is where the var variable is declared at the beginning of the code running, which means that if you call the variable before it is declared, you will get "undefined" instead of an error
